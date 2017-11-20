@@ -1,0 +1,22 @@
+{
+    "name": "nord-extra-dark",
+    "displayName": "Nord Extra Dark",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "yamenarahman",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nord Extra Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nord Extra Dark-color-theme.json"
+            }
+        ]
+    }
+}
