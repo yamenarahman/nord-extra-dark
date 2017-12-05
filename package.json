@@ -2,7 +2,7 @@
     "name": "nord-extra-dark",
     "displayName": "Nord Extra Dark",
     "description": "Extended darkness of the famous Nord color theme",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "yamenarahman",
     "engines": {
         "vscode": "^1.18.0"
@@ -11,10 +11,12 @@
         "Themes"
     ],
     "contributes": {
-        "themes": [{
-            "label": "Nord Extra Dark",
-            "uiTheme": "vs-dark",
-            "path": "./themes/Nord Extra Dark-color-theme.json"
-        }]
+        "themes": [
+            {
+                "label": "Nord Extra Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nord Extra Dark-color-theme.json"
+            }
+        ]
     }
 }
